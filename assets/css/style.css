@@ -15,7 +15,7 @@ main {
     align-items: center;
 }
 
-.main_profile_first{
+.main_profile_first {
     display: flex;
     /* flex-direction: row; */
     align-items: center;
@@ -25,7 +25,7 @@ main {
     gap: 30px;
 }
 
-.container_principal{
+.container_principal {
     padding: 0;
     border-bottom: 1px solid gray;
 }
@@ -51,13 +51,13 @@ main {
 
 .container {
     border-bottom: 1px solid gray;
-    padding: 20px;
+    padding: 20px 40px;
 }
 
 .profile_top {
     border-bottom: 1px solid gray;
     border-right: 1px solid rgb(202, 202, 202);
-    width: 38%;
+    width: 30%;
     overflow-y: scroll;
 }
 
@@ -87,11 +87,10 @@ main {
     padding: 4px 0;
 }
 
-
 .conversation_icon,
 .menu_icon {
-    width: 3vw;
-    padding: 0 0.5em;
+    width: 2vw;
+    padding: 0 0.3em;
 }
 
 /* second space */
@@ -119,6 +118,7 @@ main {
 .principal_chat h2 {
     padding: 20px 0 0 0;
 }
+
 .principal_chat p {
     padding: 20px 0;
 }
