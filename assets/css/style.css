@@ -41,6 +41,7 @@ main {
     padding: 20px;
     width: 80%;
     background-color: #A491D2;
+    margin: 30px 0;
 }
 
 .button_chat a {
@@ -72,6 +73,12 @@ main {
     display: flex;
     flex-direction: column;
     padding: 0 1em;
+    justify-content: space-between;
+}
+
+.text_main_principal {
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
